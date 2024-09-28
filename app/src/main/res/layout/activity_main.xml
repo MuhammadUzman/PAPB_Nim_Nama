@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- TextView untuk menampilkan Nama -->
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Muhammad Usman"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"/>
+
+    <!-- TextView untuk menampilkan NIM -->
+    <TextView
+        android:id="@+id/textViewNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM: 225150601111021"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+</LinearLayout>
